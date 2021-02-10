@@ -7,14 +7,33 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css"> -->
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+      
+    #content {
+        margin: 0 auto;
+        width: 1200px;
+        min-width: 800px;
+        max-width: 1600px;
+        background-color: red;
+    }
+  </style>
 </head>
 <body>
+  <div id="content"></div>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      el: '#app',
       loadSidebar: 'summary.md',
       auto2top: true,
-      name: '郭晋 Wiki'
+      name: '郭晋 Wiki',
+      homepage: 'welcome.md',
+      subMaxLevel:2,
     }
   </script>
   <!-- Docsify v4 -->
