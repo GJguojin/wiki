@@ -23,7 +23,7 @@
     </div>
  </center>
 
-## <img src="resume_img/info-circle-solid.svg" width="23px">  个人信息 1
+## <img src="resume_img/info-circle-solid.svg" width="23px">  个人信息 
 
  - 男，1991 年出生
  - 求职意向：Java 架构师
