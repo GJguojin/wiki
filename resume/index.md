@@ -27,8 +27,9 @@
 
  - 郭晋，男，河南省，1991年7月出生
  - 求职意向：Java 架构师
- - 工作经验：7 年
+ - 工作经验：7年
  - 期望薪资：35k
+ - 期望待遇：**有上海落户计划，能满足条件企业优先，至少社保公积金正常缴纳**
 
 ## <img src="resume_img/graduation-cap-solid.svg" width="25px">  教育经历
 
@@ -55,7 +56,6 @@
 ## <img src="resume_img/project-diagram-solid.svg" width="23px">  项目经历
 
 - **号百商旅电子商务有限公司酒店预订项目**
-
   ***使用spring、hiberbate、mybites、orcale、第三方公司开发类似struts功能的MVC中层控制框架***
 
 > 主要负责系统新需求开发，项目参与开发两年时间，现在总体需求已经完成，但随着酒店预订市场的变化，我们系统也随之变化，正在发生重大的修改。
@@ -73,6 +73,12 @@
 > 其他内容：
 >* 数据库采用的是orcale，在这两年中积累了大量的经验，sql优化，存储过程，函数，定时任务等知识。
 >* 服务器是在linux上部署的tomcat，上面说到的8个项目集群在11台服务器上。开发过程中解决问题，涉及到了JVM的监视与配置，监视工具主要使用的是jdk1.6以上自带的jvisualvm工具。
+
+
+- **契约锁电子签章平台**
+  ***使用spring、thrift、mybites、mysql、zookeeper、redis、rabbitMQ、itext、以及部分自主研发插架***
+
+> 
 
 ## <img src="resume_img/tools-solid.svg" width="23px">  技能清单
 
