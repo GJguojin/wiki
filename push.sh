@@ -41,12 +41,8 @@ echo "git push"
 pushResult=$(git push)
 echo $pushResult
 no_push="Everything up-to-date"
-contains_str "$pushResult" "$no_push"
-
-
-if [[ $? == 1 ]]; then
-    echo "=== $Everything up-to-date ==="
-    exit
+if [ $pushResult = $no_push ]; then
+    echo "=== ${Everything up-to-dat} ==="
 else
 	echo ""
 	echo "**************************"
