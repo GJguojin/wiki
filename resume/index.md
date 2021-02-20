@@ -23,7 +23,6 @@
     </div>
  </center>
 
-## ![info-circle-solid](resume_img/info-circle-solid.svg){:width="25px"}个人信息
 
 ## <img src="resume_img/info-circle-solid.svg" width="23px">  个人信息
 
