@@ -59,7 +59,7 @@
   ***使用spring、hiberbate、mybites、orcale、第三方公司开发类似struts功能的MVC中层控制框架***
 
 > 主要负责系统新需求开发，项目参与开发两年时间，现在总体需求已经完成，但随着酒店预订市场的变化，我们系统也随之变化，正在发生重大的修改。
-> ​从2014年2月至2016年4月，在两家公司上班，但做的是同一个项目，及号百商旅酒店预订系统。该系统又有8个web项目组成：rummerySystem,agentsSystem,ebookingSystem,accessSystem,batchSystem,innerSystem,outerSystem和报表系统。
+> ​从2014年2月至2016年4月，在两家公司上班，但做的是同一个项目，及号百商旅酒店预订系统。该系统又有8个web项目组成：rummerySystem、agentsSystem、ebookingSystem、accessSystem、batchSystem、innerSystem、outerSystem和报表系统。
 
 >* rummerySystem是我们的预订系统的核心，主要是给话务员使用。采用由新致公司开发的MVC模型的newtouch框架，主要封装了控制层，其他还是使用了Spring、hibernate等成熟框架。系统分为前中后台，前台是话务员查询酒店下单，中台是订单处理任务，后台是维护酒店房态房价。这个系统是我主要参与开发的系统，15年前在新致公司时我们团队最多时近10人，我主要负责这个系统的中后台的开发，15年后转到号百公司就还剩两个人，前中后台的开发基本由我完成。
 >* agentsSystem是给那些有自己的客户源但没有房源的公司或组织使用（如旅行社），通过这个系统下单，该系统可以说是rummerySystem的子系统，使用框架与rummerySystem系统相同。我参与了部分功能的开发与维护。
