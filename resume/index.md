@@ -76,7 +76,7 @@
 
 
 - **契约锁电子签章平台**  
-  ***使用spring、thrift、mybites、mysql、zookeeper、redis、rabbitMQ、itext、以及部分自主研发插架***
+  ***使用spring、thrift、mybites、mysql、zookeeper、redis、rabbitMQ、itext、以及部分自主研发插架1***
 
 > 
 
