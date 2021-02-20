@@ -5,24 +5,23 @@
              <img src="resume_img/phone-solid.svg" width="14px">
              183****4215
          </span>
-         <span></span>
+         <span>&nbsp;&nbsp;</span>
          <span>
              <img src="resume_img/envelope-solid.svg" width="14px">
              150****407@qq.com
          </span>
-         <span> </span>
+        <span>&nbsp;&nbsp;</span>
         <span>
              <img src="resume_img/github-brands.svg" width="14px">
              <a href="#">GJguojin</a>
          </span>
-         <span> </span>
+          <span>&nbsp;&nbsp;</span>
          <span>
              <img src="resume_img/rss-solid.svg" width="14px">
              <a href="#">My Blog</a>
          </span>
     </div>
  </center>
-
 
 ## <img src="resume_img/info-circle-solid.svg" width="23px">  个人信息 
 
