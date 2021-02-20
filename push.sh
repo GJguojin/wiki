@@ -39,7 +39,7 @@ echo "**************************"
 echo "git push"
 
 pushResult=$(git push)
-echo $pushResult
+echo "pushResult:${pushResult}"
 no_push="Everything up-to-date"
 if [ $pushResult = $no_push ]; then
     echo "=== ${Everything up-to-dat} ==="
