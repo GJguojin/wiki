@@ -55,7 +55,7 @@
 
 ## <img src="resume_img/project-diagram-solid.svg" width="23px">  项目经历
 
-- **号百商旅电子商务有限公司酒店预订项目**
+- **号百商旅电子商务有限公司酒店预订项目**  
   ***使用spring、hiberbate、mybites、orcale、第三方公司开发类似struts功能的MVC中层控制框架***
 
 > 主要负责系统新需求开发，项目参与开发两年时间，现在总体需求已经完成，但随着酒店预订市场的变化，我们系统也随之变化，正在发生重大的修改。
@@ -75,7 +75,7 @@
 >* 服务器是在linux上部署的tomcat，上面说到的8个项目集群在11台服务器上。开发过程中解决问题，涉及到了JVM的监视与配置，监视工具主要使用的是jdk1.6以上自带的jvisualvm工具。
 
 
-- **契约锁电子签章平台**
+- **契约锁电子签章平台**  
   ***使用spring、thrift、mybites、mysql、zookeeper、redis、rabbitMQ、itext、以及部分自主研发插架***
 
 > 
