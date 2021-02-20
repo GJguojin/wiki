@@ -25,22 +25,31 @@
 
 ## <img src="resume_img/info-circle-solid.svg" width="23px">  个人信息 2
 
- - 男，1991 年出生
+ - 郭晋，男，河南省，1991年7月出生
  - 求职意向：Java 架构师
  - 工作经验：7 年
  - 期望薪资：35k
 
 ## <img src="resume_img/graduation-cap-solid.svg" width="25px">  教育经历
 
-- 学士，中南民族大学，信息管理与信息系统，2010.9~2014.7
-- 绩点：8.5，年级前 100%
-- 通过了 CET4/6 英语等级考试
+- 本科，中南民族大学，信息管理与信息系统，2010.9~2014.7
+- CET4 英语等级考试
+- 计算机二级C语言，三级数据库，四级网络工程师
+- 软考 软件设计师
 
 ## <img src="resume_img/briefcase-solid.svg" width="23px">  工作经历
 
-- **XXXX 公司，XXXX 部门，XXXX 工程师，2010.1~2010.9**
+- **号百商旅电子商务有限公司，java开发工程师，2014.1~2016.1**
 
-   负责 XXX
+   负责118114酒店预订系统需求开发与维护
+
+- ****
+
+- **采办网，java开发工程师，2016.1~2016.12**
+
+   负责海外代购网站的开发与维护
+
+- ****
 
 ## <img src="resume_img/project-diagram-solid.svg" width="23px">  项目经历
 
@@ -53,9 +62,9 @@
 ## <img src="resume_img/tools-solid.svg" width="23px">  技能清单
 
 - ★★★ Java
-- ★★☆ C++、Python
 - ★★★ MySQL
+- ★★★ Spring
 - ★★★ Redis
-- ★★☆ Spring
-- ★☆☆ RabbitMQ、ZooKeeper
-- ★★☆ JavaScript
+- ★★★ RabbitMQ、ZooKeeper
+- ★☆☆ C++、Python
+- ★☆☆ JavaScript
