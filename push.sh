@@ -4,4 +4,4 @@ git push
 
 sleep 5s
 
-ssh root@120.48.26.59  ./command.sh
+ssh root@120.48.26.59  ~/command.sh
