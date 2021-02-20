@@ -19,9 +19,7 @@ echo "**************************"
 echo "git push"
 git push
 
-sleep 2s
-
 echo ""
 echo "**************************"
-echo " ssh git pill"
+echo "remote git pull"
 ssh root@120.48.26.59  /opt/wiki/command.sh
