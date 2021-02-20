@@ -31,6 +31,7 @@ no_change="nothing to commit"
 contains_str "$statusResult" "$no_change"
 
 if [[ $? == 1 ]]; then
+	echo ""
 	echo "**************************"
 	echo "nothing to commit"
 else
