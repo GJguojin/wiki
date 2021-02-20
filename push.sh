@@ -25,7 +25,6 @@ echo ""
 echo "**************************"
 echo "git commit"
 commit_msg="modify${time}"
-echo $commit_msg
 git commit -m $commit_msg
 
 
