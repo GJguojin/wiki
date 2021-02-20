@@ -8,6 +8,8 @@ ssh root@120.48.26.59
 
 sleep 5s
 
+echo "test test"
+
 cd /opt/viki
 
 git pull
