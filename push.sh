@@ -21,29 +21,36 @@ echo "**************************"
 echo "git add ."
 git add .
 
-echo ""
-echo "**************************"
-echo "git commit"
-commit_msg="modify${time}"
-git commit -m $commit_msg
-
 
 echo ""
 echo "**************************"
-echo "git pull"
-git pull
+echo "git status"
+git status 
+statusResult=$(git status)
+no_change="nothing to commit"
+contains_str "$statusResult" "$no_change"
 
-
-echo ""
-echo "**************************"
-echo "git push"
-
-pushResult=$(git push)
-echo "pushResult:${pushResult}"
-no_push="Everything up-to-date"
-if [ $pushResult = $no_push ]; then
-    echo "=== ${Everything up-to-dat} ==="
+if [[ $? == 1 ]]; then
+	echo "**************************"
+	echo "nothing to commit"
 else
+	echo ""
+	echo "**************************"
+	echo "git commit"
+	commit_msg="modify${time}"
+	git commit -m $commit_msg
+
+
+	echo ""
+	echo "**************************"
+	echo "git pull"
+	git pull
+
+	echo ""
+	echo "**************************"
+	echo "git push"
+	git push
+
 	echo ""
 	echo "**************************"
 	echo "remote git pull"
