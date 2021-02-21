@@ -104,16 +104,16 @@ void main()
 
 **注意**:需要和普通段落之间存在空行。
 
-以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：
+可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：
 ```markdown
 ```javascript
 $(document).ready(function () {
     alert('RUNOOB');
 });
 ```
-```
 
 效果：
+
 ```javascript
 $(document).ready(function () {
     alert('RUNOOB');
@@ -192,6 +192,16 @@ $(document).ready(function () {
 
 #### 4.7 分割线
 分割线最常使用就是三个或以上`*`，还可以使用`-`和`_`。
+```markdown
+***
+---
+___
+```
+
+效果：
+***
+---
+___
 
 #### 4.8 链接
 链接可以由两种形式生成：**行内式**和**参考式**。    
