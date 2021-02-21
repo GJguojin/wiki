@@ -155,7 +155,6 @@ void main()
 
 列表嵌套只需在子列表中的选项前面添加四个空格即可,如：
 ```markdown
-1. 第一项
 1. 第一项：
     - 第一项嵌套的第一个元素
     - 第一项嵌套的第二个元素
@@ -179,25 +178,30 @@ void main()
 #### 4.8 链接
 链接可以由两种形式生成：**行内式**和**参考式**。    
 **行内式**：
-> \[gjjin的Markdown库\]\(https:://github.com/gjjin/Markdown "Markdown"\)。
+```markdown
+[gjjin的Markdown库](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")。
+```
 
 效果：
-> [gjjin的Markdown库](https:://github.com/gjjin/Markdown "Markdown")。
+> [gjjin的Markdown库](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")。
 
 **参考式**：
-> \[gjjin的Markdown库1\]\[1\]    
-> \[gjjin的Markdown库2\]\[2\]    
-> \[1\]:https:://github.com/gjjin/Markdown "Markdown"    
-> \[2\]:https:://github.com/gjjin/Markdown "Markdown"    
+```markdown
+[gjjin的Markdown库1][1]    
+[gjjin的Markdown库2][2]
+
+[1]: https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown"
+[2]: https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown"  
+```
 
 效果：
 > [gjjin的Markdown库1][1]    
 > [gjjin的Markdown库2][2]
 
-[1]: https:://github.com/gjjin/Markdown "Markdown"
-[2]: https:://github.com/gjjin/Markdown "Markdown"
+[1]: https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown"
+[2]: https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown"
 
-**注意**：上述的`[1]:https:://github.com/gjjin/Markdown "Markdown"`不出现在区块中。
+**注意**：上述的`[1]:https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown"`不出现在区块中。
 
 #### 4.9 图片
 添加图片的形式和链接相似，只需在链接的基础上前方加一个`！`。
