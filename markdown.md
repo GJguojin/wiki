@@ -238,14 +238,14 @@ ___
 
 ![alt 属性文本](图片地址 "可选标题")
 
-![GJ logo](http://120.48.26.59/resume_img/tools-solid.svg "LOGO")
+![GJ logo](http://120.48.26.59/images/logo.jpg "LOGO")
 ```
 * 开头一个感叹号 !  
 * 接着一个方括号，里面放上图片的替代文字  
 * 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。 
 
 效果：
-![GJ logo](http://120.48.26.59/resume_img/tools-solid.svg "LOGO")
+![GJ logo](http://120.48.26.59/images/logo.jpg "LOGO")
 
 #### 4.10 反斜杠`\`
 相当于**反转义**作用。使符号成为普通符号。
