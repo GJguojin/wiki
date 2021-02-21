@@ -1,1 +1,1 @@
-- [个人简历](resume/index.md)
+- [个人简历](index.md)
