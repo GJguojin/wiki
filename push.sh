@@ -34,6 +34,11 @@ if [[ $? == 1 ]]; then
 	echo ""
 	echo "**************************"
 	echo "nothing to commit"
+
+	echo ""
+	echo "**************************"
+	echo "git pull"
+	git pull
 else
 	echo ""
 	echo "**************************"
