@@ -238,14 +238,14 @@ ___
 
 ![alt 属性文本](图片地址 "可选标题")
 
-![GJ logo](https://github.com/GJguojin/wiki/logo.jpg "LOGO")
+![GJ logo](https://github.com/GJguojin/wiki/blob/master/logo.jpg "LOGO")
 ```
 * 开头一个感叹号 !  
 * 接着一个方括号，里面放上图片的替代文字  
 * 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。 
 
 效果：
-![GJ logo](https://github.com/GJguojin/wiki/logo.jpg "LOGO")
+![GJ logo](https://github.com/GJguojin/wiki/blob/master/logo.jpg "LOGO")
 
 #### 4.10 反斜杠`\`
 相当于**反转义**作用。使符号成为普通符号。
@@ -292,17 +292,17 @@ Markdown的使用者：
 用`|`表示表格纵向边界，表头和表内容用`-`隔开，并可用`:`进行对齐设置，两边都有`:`则表示居中，若不加`:`则默认左对齐。
 
 ```markdown
-|代码库                              |链接                                |
+|代码库                                 |链接                                |
 |:------------------------------------:|------------------------------------|
-|MarkDown                              |[https://github.com/gjjin/Markdown](https://github.com/gjjin/Markdown "Markdown")|
-|MarkDownCopy                          |[https://github.com/gjjin/Markdown](https://github.com/gjjin/Markdown "Markdown")|
+|MarkDown                              |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
+|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
 ```
 
 
-|代码库                              |链接                                |
+|代码库                                 |链接                                |
 |:------------------------------------:|------------------------------------|
-|MarkDown                              |[https://github.com/gjjin/Markdown](https://github.com/gjjin/Markdown "Markdown")|
-|MarkDownCopy                          |[https://github.com/gjjin/Markdown](https://github.com/gjjin/Markdown "Markdown")|
+|MarkDown                              |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
+|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
 
 
 关于其它扩展语法可参见具体工具的使用说明。
