@@ -288,17 +288,20 @@ ___
 用`|`表示表格纵向边界，表头和表内容用`-`隔开，并可用`:`进行对齐设置，两边都有`:`则表示居中，若不加`:`则默认左对齐。
 
 ```markdown
-|代码库                                 |链接                                |
-|:------------------------------------:|------------------------------------|
-|MarkDown                              |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
-|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
+|代码库                                 |链接                                |作者|
+|:------------------------------------:|------------------------------------|------------------------------------:|
+|MarkDown                              |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|GJguojin|
+|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|GJguojin|
+|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|GJguojin|
+
 ```
 
 
-|代码库                                 |链接                                |
-|:------------------------------------:|------------------------------------|
-|MarkDown                              |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
-|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|
+|代码库                                 |链接                                |作者|
+|:------------------------------------:|------------------------------------|------------------------------------:|
+|MarkDown                              |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|GJguojin|
+|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|Json|
+|MarkDownCopy                          |[Markdown](https://github.com/GJguojin/wiki/blob/master/markdown.md "Markdown")|GJ|
 
 
 
