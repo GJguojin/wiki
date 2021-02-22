@@ -1,4 +1,5 @@
 - [首页](welcome.md)
 - [推荐](recommend.md)
-- [markdown语法](markdown.md)
+- [markdown语法](tool/markdown.md)
+- [ssh语法](tool/ssh.md)
 - [简历](resume/index.md)

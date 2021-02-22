@@ -18,7 +18,7 @@
           <span>&nbsp;&nbsp;</span>
          <span>
              <img src="resume_img/rss-solid.svg" width="14px">
-             <a href="#">My Blog</a>
+             <a href="http://120.48.26.59/wiki">My Blog</a>
          </span>
     </div>
  </center>
@@ -27,7 +27,7 @@
 ## <img src="resume_img/info-circle-solid.svg" width="23px">  个人信息
 
  - 郭晋，男，河南省，1991年7月出生
- - 求职意向：Java 架构师
+ - 求职意向：高级javak开发工程师、Java架构师
  - 工作经验：7年
  - 期望薪资：35k
  - 期望待遇：**有上海落户计划，能满足条件企业优先，至少社保公积金正常缴纳**
