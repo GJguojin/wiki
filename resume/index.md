@@ -3,12 +3,12 @@
      <div style="font-size: 14px;">
          <span>
              <img src="resume_img/phone-solid.svg" width="14px">
-             183****4215
+             18321094215
          </span>
          <span>&nbsp;&nbsp;</span>
          <span>
              <img src="resume_img/envelope-solid.svg" width="14px">
-             150****407@qq.com
+             1509667407@qq.com
          </span>
         <span>&nbsp;&nbsp;</span>
         <span>
