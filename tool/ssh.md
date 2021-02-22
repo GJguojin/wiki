@@ -13,6 +13,7 @@
 
 ## ssh使用方法
 * 常见参数  
+
 ```markdown
 usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [-D [bind_address:]port] [-e escape_char] [-F configfile]
@@ -24,6 +25,7 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 ```
 
 * 常用功能  
+
 ```sheel
 1.登录                   
     ssh -p22 omd@192.168.25.137               
@@ -60,6 +62,7 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 ```
 
 * 后台服务  
+
 ```sheel
 # 查询openssl软件
     rpm -qa openssh openssl
@@ -94,12 +97,14 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 
 ## ssh免密设置
 1. 进入用户的家目录
+
 ```markdown
 [root@localhost ~]# cd /root/.ssh/       【root用户就在root目录下的.ssh目录】
 [root@localhost ~]# cd /home/omd/.ssh/   【普通用户就是在家目录下的.ssh目录】
 ```
 
 2. 根据DSA算法生成私钥和公钥【默认建立在当前用户的家目录】
+
 ```markdown
 [root@localhost .ssh]# ssh-keygen -t dsa     # 一路回车即可
                 id_dsa         -->私钥(钥匙) 
@@ -107,22 +112,26 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 ```
 
 3. 拷贝公钥给目标服务器
+
 ```markdown
 [root@localhost .ssh]# ssh-copy-id -i id_dsa.pub omd@192.168.25.110          【使用ssh登录的默认端口22】
 [root@localhost .ssh]# ssh-copy-id -i id_dsa.pub –p 666 omd@192.168.25.120   【使用ssh登录设置的端口666】
 ```
 
 4. 查看目标服务器生成的文件
+
 ```markdown
 [omd@localhost .ssh]$ ll /home/omd/.ssh/authorized_keys
 ```
 
 5. 免密码登录目标服务器
+
 ```markdown
 ssh omd@192.168.25.110
 ```
 
 6. 总结一下钥匙和锁的关系
+
 ```markdown
 1.多个钥匙开一把锁
     把id_dsa.pub 复制给各个服务器
