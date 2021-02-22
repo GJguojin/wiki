@@ -106,9 +106,9 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 2. 根据DSA算法生成私钥和公钥【默认建立在当前用户的家目录】
 
 ```markdown
-[root@localhost .ssh]# ssh-keygen -t dsa     # 一路回车即可
-                id_dsa         -->私钥(钥匙) 
-                id_dsa.pub     -->公钥(锁)
+[root@localhost .ssh]# ssh-keygen -t rsa     # 一路回车即可
+                id_rsa         -->私钥(钥匙) 
+                id_rsa.pub     -->公钥(锁)
 ```
 
 3. 拷贝公钥给目标服务器
@@ -141,4 +141,37 @@ ssh omd@192.168.25.110
     把id_dsa 传给自己  
 ```
 
+## github免密设置
+* 修改git remote路径
+
+```sheel
+$ git remote -v
+origin  https://github.com/GJguojin/wiki.git (fetch)
+origin  https://github.com/GJguojin/wiki.git (push)
+```
+
+```sheel
+修改.git文件夹中conf文件 将https://github.com/GJguojin/wiki.git修改为https://用户名:密码@github.com/GJguojin/wiki.git
+
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://用户名:密码@github.com/GJguojin/wiki.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+
+```
+
+* github添加ssh key
+具体参考:[https://blog.csdn.net/qq_41563601/article/details/105467023](https://blog.csdn.net/qq_41563601/article/details/105467023)
+
+
+---
 > 参考:[https://www.cnblogs.com/machangwei-8/p/10352725.html](https://www.cnblogs.com/machangwei-8/p/10352725.html)
