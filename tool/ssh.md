@@ -12,7 +12,7 @@
 4. SSH客户端包含ssh连接命令和远程拷贝scp命令等 
 
 ## ssh使用方法
-* 常见参数  
+>* 常见参数  
 ```markdown
 usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [-D [bind_address:]port] [-e escape_char] [-F configfile]
@@ -23,7 +23,7 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [user@]hostname [command]
 ```
 
-* 常用功能  
+>* 常用功能  
 ```sheel
 1.登录                   
 		ssh -p22 omd@192.168.25.137               
@@ -59,7 +59,7 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
                 4.远程连接默认连接用户的家目录
 ```
 
-* 后台服务  
+>* 后台服务  
 ```sheel
 # 查询openssl软件
     rpm -qa openssh openssl
