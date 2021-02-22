@@ -122,14 +122,14 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 ssh omd@192.168.25.110
 ```
 
-6. 总结一下钥匙和锁的关系
+6. 总结一下钥匙和锁的关系  
 ```markdown
 1.多个钥匙开一把锁
-      把id_dsa.pub 复制给各个服务器
+    把id_dsa.pub 复制给各个服务器
  
 2.一个钥匙开duobasuo
-      把id_dsa 传给各个服务器
-      把id_dsa 传给自己  
+    把id_dsa 传给各个服务器
+    把id_dsa 传给自己  
 ```
 
 > 参考:[https://www.cnblogs.com/machangwei-8/p/10352725.html](https://www.cnblogs.com/machangwei-8/p/10352725.html)
