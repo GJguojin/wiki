@@ -169,7 +169,7 @@ origin  https://github.com/GJguojin/wiki.git (push)
 
 ```
 
-* github添加ssh key
+* github添加ssh key  
 具体参考:[https://blog.csdn.net/qq_41563601/article/details/105467023](https://blog.csdn.net/qq_41563601/article/details/105467023)
 
 
