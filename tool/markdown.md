@@ -56,7 +56,7 @@ Markdown的使用者：
 以上基本是所有traditonal markdown的语法。
 
 
-# 语法
+# 语法 <!-- {docsify-ignore} -->
 ## 1. 标题
 两种形式：  
 1）使用`=`和`-`标记一级和二级标题。
