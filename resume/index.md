@@ -3,12 +3,12 @@
      <div style="font-size: 14px;">
          <span>
              <img src="resume_img/phone-solid.svg" width="14px">
-             183****4215
+             18321094215
          </span>
          <span>&nbsp;&nbsp;</span>
          <span>
              <img src="resume_img/envelope-solid.svg" width="14px">
-             150****407@qq.com
+             1509667407@qq.com
          </span>
         <span>&nbsp;&nbsp;</span>
         <span>
@@ -29,8 +29,9 @@
  - 郭晋，男，河南省，1991年7月出生
  - 求职意向：高级javak开发工程师、Java架构师
  - 工作经验：7年
- - 期望薪资：35k
+ - 期望薪资：35k~45k 
  - 期望待遇：**有上海落户计划，能满足条件企业优先，至少社保公积金正常缴纳**
+ - 其他要求：**家住宝山区7号线美兰湖，公司距离公交超过90分钟以上不考虑，非外包形式**
 
 ## <img src="resume_img/graduation-cap-solid.svg" width="25px">  教育经历
 
@@ -38,6 +39,7 @@
 - CET4 英语等级考试
 - 计算机二级C语言，三级数据库，四级网络工程师
 - 软考 软件设计师
+- 获得过国家奖学金
 
 ## <img src="resume_img/briefcase-solid.svg" width="23px">  工作经历
 
