@@ -18,7 +18,7 @@
           <span>&nbsp;&nbsp;</span>
          <span>
              <img src="resume_img/rss-solid.svg" width="14px">
-             <a href="http://120.48.26.59/wiki">My Blog</a>
+             <a href="http://gjjin.top/wiki">My Blog</a>
          </span>
     </div>
  </center>
