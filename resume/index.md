@@ -3,7 +3,7 @@
      <div style="font-size: 14px;">
          <span>
              <img src="resume_img/phone-solid.svg" width="14px">
-             18321094215
+             18321094215(同微信号)
          </span>
          <span>&nbsp;&nbsp;</span>
          <span>
