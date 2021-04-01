@@ -133,8 +133,11 @@ ExpirationTime = (ExpirationTime_ / ExpirationInrerval + 1) * ExpirationInterval
 ## Zookeeper下Server工作状态
 服务器具有四种状态，分别是LOOKING、FOLLOWING、LEADING、OBSERVING。  
 ***LOOKING：***寻找Leader状态。当服务器处于该状态时，它会认为当前集群中没有Leader，因此需要进入Leader选举状态。  
+
 ***FOLLOWING：*** 跟随者状态。表明当前服务器角色是Follower。  
+
 ***LEADING：*** 领导者状态。表明当前服务器角色是Leader。  
+
 ***OBSERVING：*** 观察者状态。表明当前服务器角色是Observer。  
 
 ## Leader选举
