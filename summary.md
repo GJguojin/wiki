@@ -2,4 +2,5 @@
 - [推荐](recommend.md)
 - [markdown语法](tool/markdown.md)
 - [ssh语法](tool/ssh.md)
+- [zookeeper知识点](article/zookeeper.md)
 - [简历](resume/index.md)
