@@ -50,7 +50,7 @@
     function plugin(hook,vm){
         hook.afterEach(
             function(html,next){
-                next(html+`\n <hr>\n  <footer class="beian" style="text-align: center; color:rgba(255,255,255,.5);">\n <span style="font-size: 12px;" > 版权所有 @2010-2021 GJ        备案证书号：</span> <a style="text-decoration: none; font-size: 12px; font-weight: 400;" href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">${defaultOptions.ICP}</a>\n    </footer>\n`)
+                next(html+`\n <hr>\n  <footer class="beian" style="text-align: center; color:rgba(255,255,255,.5);">\n <span style="font-size: 12px;" > 版权所有 @2010-2021 GJ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 备案证书号：</span> <a style="text-decoration: none; font-size: 12px; font-weight: 400;" href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">${defaultOptions.ICP}</a>\n    </footer>\n`)
             }
         )
     }
